@@ -1,0 +1,40 @@
+.tiles {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    height: 640px;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.tile {
+    padding: 0;
+    margin: 0;
+    border: 1px solid black; 
+}
+
+.hovered {
+    background-color: black;
+}
+
+
+.tiles, .tile {
+    box-sizing: border-box;
+    
+}
+
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
